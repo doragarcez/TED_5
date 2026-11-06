@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soma de Dois Números</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <i class="fa fa-plus icone-soma" aria-hidden="true"></i>
+    <h1>Soma de dois números</h1>
+
+    <div class="campo">
+      <label for="num1">Primeiro número</label>
+      <input type="text" id="num1" inputmode="decimal" placeholder="Ex.: 12">
+    </div>
+
+    <div class="campo">
+      <label for="num2">Segundo número</label>
+      <input type="text" id="num2" inputmode="decimal" placeholder="Ex.: 7,5">
+    </div>
+
+    <div class="campo">
+      <label for="resultado">Resultado</label>
+      <input type="text" id="resultado" readonly placeholder="A soma aparece aqui">
+    </div>
+
+    <p class="erro" id="erro" role="alert"></p>
+
+    <button type="button" id="btn-somar">Somar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
